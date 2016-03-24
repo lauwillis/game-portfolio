@@ -1,0 +1,550 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+section#slider img{
+    margin: 0 auto;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+a{
+    color:#8BC34A;
+}
+
+
+body{
+
+    background-color: #0b1a26;
+}
+
+p{
+    color: #DDDDDD;
+}
+
+.carouseltext{
+    font-family: 'Press Start 2P', cursive;
+
+}
+#video{
+    min-width: 100%;
+    min-height:100%;
+    width: auto;
+    height: auto;
+
+}
+
+
+
+body > section {
+    clear:both;
+    padding: 50px 0;
+}
+em{
+font-family: 'Press Start 2P', cursive;
+
+}
+h2,h3{
+    color:#E91E63;
+    margin-bottom: 30px;
+    font-family: 'Press Start 2P', cursive;
+}
+h4{
+    color:#E91E63;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', cursive;
+}
+h2:after,
+h3:after{
+    content:"";
+    height: 5px;
+    width: 40px;
+    background-color: #15365b;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+.navbar-default{
+    box-shadow:none;
+    background-color: transparent;
+    border: none;
+    min-height: 90px;
+    padding-top: 20px;
+    transition: 1s all ease;
+
+}
+
+.effect{
+    background-color: #1b578c;
+    min-height: 30px;
+    box-shadow: 0 0 10px black;
+    padding-top: 0;
+}
+
+.nav > li > a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 1.3em;
+    text-shadow: 1px 1px 1px black;
+    -webkit-text-shadow: 1px 1px 1px black;
+    -moz-text-shadow: 1px 1px 1px black;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 700;
+}
+
+.nav > li.active{
+    background-color: #08182d;
+    transition:1s all ease;
+}
+
+
+
+.nav >li > a:hover,
+.nav >li > a:focus {
+    background-color: transparent;
+}
+
+.carousel-inner img{
+    padding:50px;
+}
+
+.blue-circle{
+    width:100%;
+    padding-bottom: 100%;
+    background-color: #15365b;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin: 0 auto;
+}
+
+.blue-circle div{
+    float: left;
+    width: 100%;
+    padding-top:45%;
+    line-height: 1em;
+    margin-top: -0.5em;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.blue-circle div i {
+    font-size: 3em;
+}
+
+#about .blue-circle{
+    width: 50%;
+    padding-bottom: 50%;
+}
+
+section#features{
+    background-color: #1B3F8B;   
+}
+
+.item-feature{
+    margin-bottom: 50px;
+}
+
+
+
+section#screenshots{
+    background-color: #162252;
+}
+
+.modal-body{
+    text-align: center;
+    margin-top: 50px;
+    padding: 245px;
+    background-color: black;
+}
+
+section#parallax{
+    height:500px;
+    background-image: url(../img/aurora.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+h2.parallax{
+    font-size: 3.6em;
+    color:#ffffff;
+    font-weight: 700;
+    text-shadow: 0px 7px 8px black;
+    -moz-text-shadow: 0px 7px 8px black;
+    -webkit-text-shadow: 0px 7px 8px black;
+;
+
+}
+h2.parallax:after{
+    display:none;
+}
+
+section#slider{
+    background-color: #0b1a26;
+}
+
+section#download{
+    padding-bottom: 0;
+
+}
+
+section#download .content-downloads{
+    height: 700px;
+    position: relative;
+}
+
+section#download div.phone{
+    position: relative;
+    width: 50%;
+    float: left;
+    height:100%;
+    box-shadow: inset -7px -7px 12px -2px rgba(0,0,0,.15);
+    -moz-box-shadow: inset -7px -7px 12px -2px rgba(0,0,0,.15);
+    -webkit-box-shadow: inset -7px -7px 12px -2px rgba(0,0,0,.15);
+}
+
+
+section#download .downloads-empty{
+    width:50%;
+    background-color:#323031;
+    float: right;
+    height: 100%;
+    z-index: 2;
+    background-repeat: no-repeat;
+    background-position:bottom right;
+
+}
+
+section#download .download{
+    position:absolute;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    top: 50px;
+}
+section#download .platforms > div{
+    border-radius: 20px;
+    border:3px solid #E91E63;
+    padding: 11px 0;
+    font-size: 1.2em;
+    position: relative;
+    padding-left: 50px;
+    color: #F44336;
+    
+}
+section#download .platforms i{
+font-size: 2.5em;
+position: absolute;
+left: 20px;
+top:12px;
+}
+section#contact{
+    background-color: #344152;
+
+}
+.contact{
+     font-family: Verdana;
+
+}
+
+.animation1,
+.animation2,
+.animation3{
+    opacity: 0;
+}
+
+
+.animation1{
+
+}
+
+.animation2{
+    animation-delay: .3s;
+    -webkit-animation-delay: .3s;
+
+}
+
+.animation3{
+        animation-delay: .6s;
+     -webkit-animation-delay: .6s;
+
+}
+
+.img-responsive{
+    height: 100%;
+    width: 100%;
+}
+
+
+.features-image img{
+    opacity: 0;
+    animation-delay: .3s;
+    width: 110%;
+}
+
+#ctx{
+    background-color: black;
+    margin-left: 23%;
+}
+
+.game{
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+.row{
+}
+
+.tutorial{
+        font-family: 'Press Start 2P', cursive;
+
+}
+
+
+.pe-thumbs{
+    width: 1300px;
+    height: 400px;
+    margin: 20px auto;
+    position: relative;
+    background: transparent url(../img/4.jpg) top center;
+    border: 5px solid #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.pe-thumbs:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,102,0,0.2);
+}
+
+.pe-thumbs li{
+    float: left;
+    position: relative;
+    list-style: none;
+}
+.pe-thumbs li a,
+.pe-thumbs li a img{
+    display: block;
+    position: relative;
+}
+
+.pe-thumbs li a img{
+    width: 110px;
+    height: 95px;
+    opacity: 0.2;
+}
+
+.pe-thumbs li a div.pe-description{
+    width: 200px;
+    height: 100px;
+    background: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0px;
+    left: -200px;
+    color: white;
+    display: none;
+    z-index: 1001;
+    text-align: left;
+    text-align: center;
+
+}
+
+.pe-description h3{
+    padding: 10px 10px 0px 10px;
+    line-height: 20px;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+}
+.pe-description p{
+    padding: 10px 0px;
+    margin: 10px;
+    font-size: 12px;
+    font-style: italic;
+    border-top: 1px solid rgba(255,255,255,0.3);
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
