@@ -297,6 +297,7 @@ section#contact{
 }
 .contact{
      font-family: Verdana;
+     text-transform: lowercase;
 
 }
 
