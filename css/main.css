@@ -301,6 +301,10 @@ section#contact{
 
 }
 
+section#tutorial{
+    background-color: #2288ee;
+}
+
 .animation1,
 .animation2,
 .animation3{
@@ -338,7 +342,8 @@ section#contact{
 
 #ctx{
     background-color: black;
-    margin-left: 23%;
+    display: block;
+    margin: 0 auto;
 }
 
 .game{
@@ -437,6 +442,22 @@ section#contact{
        (min-resolution: 120dpi) {
 
 }
+@media only screen  and (min-width : 1200px) {
+.pe-thumbs li a img{
+    width: 95px;
+    height: 95px;
+}
+
+.pe-thumbs{
+    width: 1136px;
+    height:400px;
+}
+
+section#download .content-downloads{
+    height: 600px;
+}
+}
+
 
 /* ==========================================================================
    Helper classes
